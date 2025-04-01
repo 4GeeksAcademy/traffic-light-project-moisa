@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 
-const TrafficLight = () => {
+const TrafficLight = (props) => {
     const [glowy, SetGlowy] = useState ("red") 
     return (
         <div className="trafficLight">
